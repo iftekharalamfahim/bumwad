@@ -1,4 +1,4 @@
-import {Box} from "lucide-react";
+import {DraftingCompass} from "lucide-react";
 import Button from "./ui/Button";
 import {useOutletContext} from "react-router";
 
@@ -27,17 +27,17 @@ const Navbar = () => {
             <nav className="inner">
                 <div className="left">
                     <div className="brand">
-                        <Box className="logo"/>
+                        <DraftingCompass className="logo"/>
 
                         <span className="name">
-                            BumWad
+                            kompascale
                         </span>
                     </div>
 
                     <ul className="links">
                         <a href="#">Product</a>
-                        <a href="#">Product</a>
-                        <a href="#">Product</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">Community</a>
                         <a href="#">Enterprise</a>
                     </ul>
                 </div>
