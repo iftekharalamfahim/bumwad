@@ -17,6 +17,8 @@ export const PROGRESS_STEP = 5;
 // UI Constants
 export const GRID_OVERLAY_SIZE = "60px 60px";
 export const GRID_COLOR = "#3B82F6";
+export const MAX_FILE_SIZE_MB = 10;
+export const ALLOWED_MIME_TYPES = ["image/jpeg", "image/png", "image/jpg"];
 
 // HTTP Status Codes
 export const UNAUTHORIZED_STATUSES = [401, 403];

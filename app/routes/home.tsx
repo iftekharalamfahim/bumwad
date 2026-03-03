@@ -15,7 +15,12 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
     const navigate = useNavigate();
 
-    const handleUploadComplete = async (base64Image: string) => {
+    const handleUploadComplete = async (data: string | { error: string }) => {
+        if (typeof data === 'object' && 'error' in data) {
+            alert(data.error);
+            return false;
+        }
+
         const newId = Date.now().toString();
 
         navigate(`/visualizer/${newId}`);
