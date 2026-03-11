@@ -63,7 +63,7 @@ export default function Home() {
             {
                 state: {
                     initialImage: saved.sourceImage,
-                    initialRendered: saved.renderedImage || null,
+                    initialRender: saved.renderedImage || null,
                     name
                 }
             }
