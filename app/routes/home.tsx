@@ -9,8 +9,8 @@ import {createProject} from "../../lib/puter.action";
 
 export function meta({}: Route.MetaArgs) {
     return [
-        { title: "New React Router App" },
-        { name: "description", content: "Welcome to React Router!" },
+        { title: "Kompascale" },
+        { name: "description", content: "Welcome to Kompascale!" },
     ];
 }
 
@@ -40,11 +40,10 @@ export default function Home() {
         navigate(`/visualizer/${newId}`, {
             state: {
                 initialImage: saved.sourceImage,
-                initialRendered: saved.renderedImage || null,
+                initialRender: saved.renderedImage || null,
                 name
             }
         });
-
         return true;
     }
 

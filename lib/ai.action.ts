@@ -37,7 +37,7 @@ export const generate3DView = async ({sourceImage}: Generate3DViewParams) => {
   if(!mimeType || !base64Data) throw new Error('Invalid source image  payload');
 
   const response = await puter.ai.txt2img( KOMPASCALE_RENDER_PROMPT,{
-    provider: 'google',
+    provider: 'gemini',
     model: 'gemini-3-pro-image-preview',
     input_image: base64Data,
     input_image_mime_type: mimeType,
