@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a21f2da-a016-4bd5-9fcb-f45bfc3e6e1b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/puter.hosting.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/puter.hosting.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ai.action.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ai.action.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hosting-images&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#3 on hosting-images&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
@@ -92,7 +92,11 @@
       <workItem from="1772396284437" duration="5962000" />
       <workItem from="1772436577742" duration="20875000" />
       <workItem from="1773202719629" duration="716000" />
-      <workItem from="1773203668235" duration="4129000" />
+      <workItem from="1773203668235" duration="5891000" />
+      <workItem from="1773279741386" duration="7267000" />
+      <workItem from="1773287926319" duration="85000" />
+      <workItem from="1773298282802" duration="155000" />
+      <workItem from="1773377999577" duration="1325000" />
     </task>
     <servers />
   </component>
